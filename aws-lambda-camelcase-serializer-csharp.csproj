@@ -1,18 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageId>Stelly.AwsLambda.CamelCaseSerializer</PackageId>
+    <AssemblyName>Stelly.AwsLambda.CamelCaseSerializer</AssemblyName>
+    <Authors>Ryan Stelly</Authors>
+    <PackageLicenseUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp</PackageProjectUrl>
+    <PackageTags>aws awslambda serialization serverless</PackageTags>
+    <Description>Serializer for AWSLambda functions which implements `ILambdaSerializer`</Description>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="**\*.cs" />
     <EmbeddedResource Include="**\*.resx" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="NETStandard.Library" Version="1.6" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0*" />
   </ItemGroup>
-
 </Project>
