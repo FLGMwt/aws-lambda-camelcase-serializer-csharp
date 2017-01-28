@@ -3,7 +3,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace AwsLambdaCamelCaseSerializer
+namespace Stelly.AwsLambda.CamelCaseSerializer
 {
     public class AwsLambdaCamelCaseSerializer : ILambdaSerializer
     {
