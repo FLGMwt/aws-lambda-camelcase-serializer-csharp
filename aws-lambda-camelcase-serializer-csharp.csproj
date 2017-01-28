@@ -10,7 +10,6 @@
     <Description>Serializer for AWSLambda functions which implements `ILambdaSerializer`</Description>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
     <EmbeddedResource Include="**\*.resx" />
   </ItemGroup>
   <ItemGroup>
