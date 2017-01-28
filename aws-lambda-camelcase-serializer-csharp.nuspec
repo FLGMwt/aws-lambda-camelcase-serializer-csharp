@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Stelly.AwsLambda.CamelCaseSerializer</id>
+    <version>1.0.0</version>
+    <authors>Ryan Stelly</authors>
+    <owners>FLGMwt</owners>
+    <licenseUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>aws awslambda serialization serverless</tags>
+  </metadata>
+</package>
