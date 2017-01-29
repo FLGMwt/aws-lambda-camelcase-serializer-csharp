@@ -11,9 +11,6 @@
     <Description>Serializer for AWSLambda functions which implements `ILambdaSerializer`</Description>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="**\*.resx" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0*" />
   </ItemGroup>
