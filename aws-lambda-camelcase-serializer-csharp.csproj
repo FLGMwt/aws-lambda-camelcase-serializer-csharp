@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
-    <Version>2.0.0</Version>
-    <PackageId>Stelly.AwsLambda.CamelCaseSerializer</PackageId>
-    <AssemblyName>Stelly.AwsLambda.CamelCaseSerializer</AssemblyName>
+    <Version>2.0.1</Version>
+    <PackageId>FLGMwt.AwsLambda.CamelCaseSerializer</PackageId>
+    <AssemblyName>FLGMwt.AwsLambda.CamelCaseSerializer</AssemblyName>
     <Authors>Ryan Stelly</Authors>
     <PackageLicenseUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/FLGMwt/aws-lambda-camelcase-serializer-csharp</PackageProjectUrl>
